@@ -1,0 +1,97 @@
+* {
+    font-family: "Roboto";
+}
+.first-div {
+    height: 400px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.first-div-right {
+    position: relative;
+}
+
+.first-div-right div {
+    gap: 20px;
+}
+
+.first-div-img {
+    position: relative;
+    bottom: 60px;
+    right: 180px;
+    width: 380px;
+}
+
+.first-div-right-prname {
+    max-width: 70%;
+}
+
+.card-details {
+    border: none;
+}
+
+.shopbycat-card {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.shopbycat-card img {
+    transition: all 0.3s ease-in-out;
+    width: 400px;
+    left: 50px;
+}
+
+.shopbycat-card:hover img {
+    left: 0;
+    cursor: pointer;
+}
+
+.amazon-basics {
+    background-color: rgb(254, 254, 242);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.amazon-basics img {
+    left: 130px;
+    transition: all 0.3s ease-in-out;
+}
+
+.amazon-basics:hover img {
+    left: 80px;
+    cursor: pointer;
+}
+.last-card{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+}
+.last-card img {
+    transform: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.last-card:hover img {
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+footer{
+    background-color: rgb(254, 254, 242);
+}
+.form {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.form-submit {
+    transition: all 0.3s ease-in-out;
+}
+
+.form-submit:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+}
+.form:hover .form-left-img{
+    left: 0;
+}
+.form-left-img {
+    position: relative;
+    left: 200px;
+    transition: all 0.3s ease-in-out;
+}
