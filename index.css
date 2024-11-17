@@ -1,6 +1,146 @@
+@media (max-width: 500px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .first-div {
+        gap: 0px;
+    }
+
+    .first-div-left {
+        align-items: center;
+        text-align: center;
+    }
+
+    .first-div-left-details {
+        align-items: center;
+        text-align: center;
+    }
+
+    .shopbycat {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .shopbycat-section {
+        justify-content: center;
+    }
+
+    .shopbycat-card img {
+        transition: all 0.3s ease-in-out;
+        width: 400px;
+        left: 100px;
+    }
+
+    .shopbycat-card:hover img {
+        left: 0;
+        cursor: pointer;
+    }
+
+    .yellowdivs {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .amazon-basics img {
+        left: 80px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .amazon-basics:hover img {
+        left: 0px;
+        cursor: pointer;
+    }
+
+    .lastviewed {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .lastviewed-section {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .last-card {
+        align-items: center;
+        text-align: center;
+    }
+    .signup-form{
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (min-width:789px) {
+    nav div {
+        justify-content: space-between;
+    }
+
+    .first-div-left {
+        align-items: start;
+        text-align: left;
+    }
+
+    .shopbycat-section {
+        justify-content: space-between;
+    }
+
+    .yellowdivs {
+        justify-content: space-between;
+        gap: 0px;
+    }
+
+    .yellowdivs div {
+        width: 49%;
+    }
+
+    .amazon-basics img {
+        left: 130px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .amazon-basics:hover img {
+        left: 80px;
+        cursor: pointer;
+    }
+
+    .lastviewed-section {
+        justify-content: space-between;
+    }
+
+    .shopbycat-card {
+        width: 32%;
+    }
+
+    .shopbycat-card img {
+        transition: all 0.3s ease-in-out;
+        width: 400px;
+        left: 100px;
+    }
+
+    .shopbycat-card:hover img {
+        left: 0;
+        cursor: pointer;
+    }
+    .signup-form{
+        flex-direction: row;
+    }
+
+}
+
 * {
     font-family: "Roboto";
 }
+
 .first-div {
     height: 400px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -33,35 +173,19 @@
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.shopbycat-card img {
-    transition: all 0.3s ease-in-out;
-    width: 400px;
-    left: 50px;
-}
-
-.shopbycat-card:hover img {
-    left: 0;
-    cursor: pointer;
-}
 
 .amazon-basics {
     background-color: rgb(254, 254, 242);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
-.amazon-basics img {
-    left: 130px;
-    transition: all 0.3s ease-in-out;
-}
 
-.amazon-basics:hover img {
-    left: 80px;
-    cursor: pointer;
-}
-.last-card{
+
+.last-card {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 
 }
+
 .last-card img {
     transform: none;
     transition: all 0.3s ease-in-out;
@@ -71,9 +195,15 @@
     transform: rotateY(180deg);
     cursor: pointer;
 }
-footer{
+
+.last-card p {
+    font-size: 12px;
+}
+
+footer {
     background-color: rgb(254, 254, 242);
 }
+
 .form {
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
@@ -87,9 +217,11 @@ footer{
     background-color: black;
     color: white;
 }
-.form:hover .form-left-img{
+
+.form:hover .form-left-img {
     left: 0;
 }
+
 .form-left-img {
     position: relative;
     left: 200px;

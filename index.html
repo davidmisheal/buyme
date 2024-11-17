@@ -21,9 +21,9 @@
 
 <body>
     <div class="main d-flex flex-column gap-5">
-        <nav class="navbar navbar-expand container">
+        <nav class="navbar navbar-expand container d-flex ">
             <a class="navbar-brand fw-bold fs-2" href="#">Buyme</a>
-            <div class="d-flex flex-row justify-content-between w-100">
+            <div class="d-flex w-100">
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link" href="#">All</a>
@@ -43,46 +43,46 @@
                 </form>
             </div>
         </nav>
-        <div class="container bg-light d-flex flex-row align-items-start position-relative first-div rounded  p-4">
-            <span class="col-7 d-flex flex-column gap-3 align-items-start">
+        <div class="container bg-light d-flex flex-wrap justify-content-between position-relative rounded p-4 h-100 first-div col-10 col-md-12">
+            <div class="col-md-7 col-12 d-flex flex-column gap-3 first-div-left" >
                 <h2>
                     SHOP COMPUTERS & ACCESSORIES
                 </h2>
                 <p>Explore our wide range of computers, accessories, and tech solutions tailored for every need.</p>
-                <button class="bg-white border-0 px-3 py-2 rounded-5 mt-5">View more</button>
-            </span>
-            <span class="d-flex flex-row justify-content-center align-items-start first-div-right position-relative col-5 h-100">
-                <span class="card p-4 w-50 card-details d-flex flex-column gap-2" style="height:fit-content;align-self: flex-end;">
+                <button class="bg-white border-0 px-3 py-2 rounded-5 mt-1">View more</button>
+            </div>
+            <div class="d-flex flex-column-reverse justify-content-center align-items-center first-div-right position-relative col-md-4 h-100">
+                <span class="card pt-5 px-4 pb-4  col-12 col-md-12 card-details d-flex flex-column gap-2 w-75 first-div-left-details" style="height:fit-content;">
                     <p class="card-subtitle text-secondary first-div-right-prname">EliteSound Pro Wireless Headset with
                         Noise-Cancellation</p>
                     <h3 class="card-title">$129.99</h3>
                     <a class="card-link text-black bg-light border-0 px-3 py-2 rounded-5 first-div-right-view " style="text-decoration: none;width: 110px;" href="#">View more</a>
                 </span>
-                <img src="./imgs/—Pngtree—headset headset headset gaming headset_5762130.png" class="position-absolute" style="left: 230px;bottom: 40px;width: 350px;" >
-            </span>
+                <img src="./imgs/—Pngtree—headset headset headset gaming headset_5762130.png" class="position-relative col-2 col-md-5 w-50" style="top: 50px;" >
+            </div>
         </div>
-        <div class="shopbycat container d-flex flex-column p-0">
+        <div class="shopbycat container d-flex flex-column p-0 ">
             <h2 class="mb-4">Shop by category</h2>
-            <section class="d-flex flex-row p-0 gap-3">
-                <div class="card d-flex flex-column align-items-start bg-light border-0 w-25 p-3 shopbycat-card"
+            <section class="d-flex flex-wrap p-0 gap-4 w-100 shopbycat-section">
+                <div class="card d-flex flex-column align-items-start bg-light border-0 col-10 col-md-3 p-3 shopbycat-card"
                     style="overflow: hidden;">
                     <img src="./imgs/—Pngtree—3d beauty cosmetics product design_6391031.png"
                         class="card-img-top position-relative" />
                     <p class="fw-light text-uppercase text-secondary">Beauty picks</p>
                 </div>
-                <div class="card d-flex flex-column align-items-start bg-light border-0 w-25 p-3 shopbycat-card"
+                <div class="card d-flex flex-column align-items-start bg-light border-0 col-10 col-md-3 p-3 shopbycat-card"
                     style="overflow: hidden;">
                     <img src="./imgs/—Pngtree—computer accessories_17289620.png"
                         class="card-img-top position-relative" />
                     <p class="fw-light text-uppercase text-secondary">Computers & Accessories</p>
                 </div>
-                <div class="card d-flex flex-column align-items-start  bg-light border-0 w-25 p-3 shopbycat-card"
+                <div class="card d-flex flex-column align-items-start  bg-light border-0 col-10 col-md-3 p-3 shopbycat-card"
                     style="overflow: hidden;">
                     <img src="./imgs/playstation-5-horizontal-product-removebg-preview.png"
                         class="card-img-top position-relative" />
                     <p class="fw-light text-uppercase text-secondary">Video games</p>
                 </div>
-                <div class="card d-flex flex-column align-items-start bg-light border-0 w-25 p-3 shopbycat-card"
+                <div class="card d-flex flex-column align-items-start bg-light border-0 col-10 col-md-3 p-3 shopbycat-card"
                     style="overflow: hidden;">
                     <img src="./imgs/Keel-Toys-Stan-Small_02d40031-c0-removebg-preview.png"
                         class="card-img-top position-relative" />
@@ -90,9 +90,9 @@
                 </div>
             </section>
         </div>
-        <div class="container p-0 d-flex flex-row gap-3">
-            <div class="d-flex flex-row align-items-center p-3 w-50 rounded amazon-basics" style="overflow: hidden;">
-                <span class="d-flex flex-column gap-1">
+        <div class="container p-0 d-flex flex-wrap gap yellowdivs">
+            <div class="d-flex flex-row align-items-center p-3 rounded amazon-basics col-10 col-md-5" style="overflow: hidden;">
+                <span class="d-flex flex-column gap-1 ">
                     <h4>Buyme Basics</h4>
                     <p class="w-75"> Our products are crafted with care to meet your expectations for durability,
                         reliability, and
@@ -102,7 +102,7 @@
                 <img src="./imgs/Microsoft-Xbox-One-Bluetooth-Wir-removebg-preview.png"
                     class="w-50 position-relative" />
             </div>
-            <div class="d-flex flex-row align-items-center p-3 w-50 rounded amazon-basics" style="overflow: hidden;">
+            <div class="d-flex flex-row align-items-center p-3 rounded amazon-basics col-10 col-md-5" style="overflow: hidden;">
                 <span class="d-flex flex-column gap-3">
                     <h4>Deals & Promotions</h4>
                     <p class="w-75"> Rest assured with Amazon’s reliable customer service and hassle-free return policy.
@@ -114,45 +114,45 @@
         </div>
         <div class="lastviewed container p-0">
             <h2 class="mb-4">Last viewed</h2>
-            <section class="d-flex flex-row justify-content-between">
-                <div class="card d-flex flex-column align-items-start col-2 p-2 bg-light border-0 last-card">
+            <section class="d-flex flex-wrap align-items-center lastviewed-section" >
+                <div class="card d-flex flex-column  col-md-2 col-10 p-2 bg-light border-0 last-card">
                     <img src="./imgs/shoes/custom-nike-dunk-high-by-you-sho-removebg-preview.png"
                         class="w-100 card-img-top" />
                     <div class="card-body text-left">
-                        <p class="fs-6 text-secondary">Footwear</p>
+                        <p class=" text-secondary">Footwear</p>
                         <h6 class="card-title fs-5">Nike shoes 1</h6>
                         <h4 class="fs-2 fw-bold">$129.99</h4>
                     </div>
                 </div>
-                <div class="card d-flex flex-column align-items-start col-2 p-2 bg-light border-0 last-card">
+                <div class="card d-flex flex-column  col-md-2 col-10 bg-light border-0 last-card">
                     <img src="./imgs/shoes/custom-nike-dunk-low-by-you-su24-removebg-preview.png"
                         class="w-100 card-img-top" />
                     <div class="card-body text-left">
-                        <p class="fs-6 text-secondary">Footwear</p>
+                        <p class=" text-secondary">Footwear</p>
                         <h6 class="card-title fs-5">Nike shoes 2</h6>
                         <h4 class="fs-2 fw-bold">$169.99</h4>
                     </div>
                 </div>
-                <div class="card d-flex flex-column align-items-start col-2 p-2 bg-light border-0 last-card">
+                <div class="card d-flex flex-column  col-md-2 col-10 bg-light border-0 last-card">
                     <img src="./imgs/shoes/NIKE_DUNK_LOW_RETRO-removebg-preview.png" class="w-100 card-img-top" />
                     <div class="card-body text-left">
-                        <p class="fs-6 text-secondary">Footwear</p>
+                        <p class=" text-secondary">Footwear</p>
                         <h6 class="card-title fs-5">Nike shoes 3</h6>
                         <h4 class="fs-2 fw-bold">$109.99</h4>
                     </div>
                 </div>
-                <div class="card d-flex flex-column align-items-start col-2 p-2 bg-light border-0 last-card">
+                <div class="card d-flex flex-column  col-md-2 col-10 bg-light border-0 last-card">
                     <img src="./imgs/shoes/NIKE_COURT_VISION_LO_NN.png" class="w-100 card-img-top" />
                     <div class="card-body text-left">
-                        <p class="fs-6 text-secondary">Footwear</p>
+                        <p class=" text-secondary">Footwear</p>
                         <h6 class="card-title fs-5">Nike shoes 4</h6>
                         <h4 class="fs-2 fw-bold">$210.99</h4>
                     </div>
                 </div>
-                <div class="card d-flex flex-column align-items-start col-2 p-2 bg-light border-0 last-card">
+                <div class="card d-flex flex-column  col-md-2 col-10 bg-light border-0 last-card">
                     <img src="./imgs/shoes/nike-v2k-run-metallic-summit-whi.png" class="w-100 card-img-top" />
                     <div class="card-body text-left">
-                        <p class="fs-6 text-secondary">Footwear</p>
+                        <p class=" text-secondary">Footwear</p>
                         <h6 class="card-title fs-5">Nike shoes 5</h6>
                         <h4 class="fs-2 fw-bold">$99.99</h4>
                     </div>
